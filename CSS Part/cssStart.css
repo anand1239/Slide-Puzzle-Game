@@ -1,0 +1,71 @@
+/* Tag Selector */
+body{
+    text-align: center;
+}
+h1{
+    margin: 0 auto 2%;
+    font-size: 100px;
+}
+h2{
+    margin: 1rem auto 2rem;
+}
+p{
+    margin: 0 auto;
+}
+/* Class Selector */
+.container::before{
+    content: "";
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg");
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+.top{
+    background-color: transparent;
+    margin: 7% 0 0;
+}
+.foot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: pink;
+}
+
+
+/* All Button Part */
+.btn-own{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(161, 79, 236);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.btn-own:hover{
+    background-color: rgba(132, 0, 255, 0.973);
+}
+.btn-footer{
+    border: 2px solid rgb(35, 159, 241);
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px auto 0;
+    color: rgb(35, 159, 241);
+}
+.btn-footer:hover{
+    background-color: rgb(35, 159, 241);
+    color: #fff;
+}

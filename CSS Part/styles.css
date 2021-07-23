@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    background-color: #C9E4C5;
+}
+p{
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+h1{
+    margin: 5% auto 0;
+}
+h2{
+    position: absolute;
+    top: 20%;
+}
+
+.container-all{
+    margin: 5% auto 0;
+    /* display: inline-block; */
+    height: 416px;
+    width: 416px;
+    border: 10px solid;
+    background-color: red;
+    /* margin-top: 13%; */
+}
+
+.boxes{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: #D83A56;
+    border: 2px solid black;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+.voidSpace{
+    display: inline-block;
+    background-color: #fff;
+    color: #fff;
+}
+.win-state{
+    opacity: 0.2;
+}
+.winGame{
+    background-color: red;
+    color: black;
+    font-size: 100px;
+}
+.beforeWin{
+    visibility: hidden;
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2.5% auto 0;
+}
